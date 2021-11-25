@@ -1,17 +1,17 @@
 package com.github.romankh3.templaterepository.springboot;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * Unit-level testing for {@link SpringBootTemplateRepository} object.
  */
-public class SpringBootTemplateRepositoryTest {
-
+@SpringBootTest
+class SpringBootTemplateRepositoryTest {
     @Test
-    public void shouldCreateJavaRepositoryTemplateMain() {
-        SpringBootTemplateRepository main = new SpringBootTemplateRepository();
-        Assert.assertNotNull(main);
+    void testLoadContext() {
+        assertTrue(true);
     }
-
 }
