@@ -1,11 +1,8 @@
-# SpringBoot Mapstruct testing example
-
 ## Overview
-Project for demonstrating how can be added unit tests for Mapstruct Mappers with SpringBoot.
-
+Spring boot template repository
 
 ## Building
-mvn clean package
+...
 
 ## Troubleshooting
 ...
@@ -14,7 +11,7 @@ mvn clean package
 Can be found in [RELEASE_NOTES](RELEASE_NOTES.md).
 
 ## Authors
-* Roman Beskrovnyi - [romankh3](https://github.com/romankh3)
+* Roman Beekeeper - [romankh3](https://github.com/romankh3)
 
 ## Acknowledgments
 ...
